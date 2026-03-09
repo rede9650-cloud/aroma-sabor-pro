@@ -1,3 +1,4 @@
+import heroCover from "@/assets/hero-cover.jpg";
 import heroImage from "@/assets/hero-spices.jpg";
 import bannerMarmitas from "@/assets/banner-marmitas.jpg";
 import bannerMolhos from "@/assets/banner-molhos.jpg";
@@ -73,25 +74,25 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero */}
-      <div className="relative h-64 overflow-hidden">
+      <div className="relative h-80 overflow-hidden">
         <img
-          src={heroImage}
-          alt="Temperos caseiros coloridos em tigelas de madeira"
+          src={heroCover}
+          alt="Marmitas com temperos caseiros"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 banner-overlay" />
         <div className="absolute bottom-0 left-0 right-0 p-6 text-center">
-          <div className="flex items-center justify-center gap-2 mb-2">
-            <ChefHat className="w-6 h-6 text-primary" />
-            <span className="text-xs font-semibold uppercase tracking-[0.2em] text-primary font-body">
-              Área do Aluno
-            </span>
+          <div className="flex items-center justify-center gap-2 mb-3">
+            <ChefHat className="w-7 h-7 text-primary" />
           </div>
-          <h1 className="font-display text-2xl font-bold text-gradient-warm leading-tight">
-            Temperos Caseiros & Marmitas
+          <h1 className="font-display text-3xl font-extrabold text-gradient-warm leading-tight">
+            Temperos Caseiros
           </h1>
+          <p className="text-base font-display font-semibold text-foreground mt-1">
+            para Venda de Marmitas
+          </p>
           <p className="text-sm text-muted-foreground mt-2 font-body">
-            Seus materiais exclusivos estão aqui
+            Seus materiais exclusivos estão aqui ✨
           </p>
         </div>
       </div>
