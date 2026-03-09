@@ -91,7 +91,10 @@ const Index = () => {
           <p className="text-base font-display font-semibold text-foreground mt-1">
             para Venda de Marmitas
           </p>
-          <p className="text-sm text-muted-foreground mt-2 font-body">
+          <p className="text-xs uppercase tracking-[0.15em] text-primary mt-3 font-body font-semibold">
+            por Josefa Neves
+          </p>
+          <p className="text-sm text-muted-foreground mt-1 font-body">
             Seus materiais exclusivos estão aqui ✨
           </p>
         </div>
