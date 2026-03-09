@@ -1,3 +1,4 @@
+import heroCover from "@/assets/hero-cover.jpg";
 import heroImage from "@/assets/hero-spices.jpg";
 import bannerMarmitas from "@/assets/banner-marmitas.jpg";
 import bannerMolhos from "@/assets/banner-molhos.jpg";
